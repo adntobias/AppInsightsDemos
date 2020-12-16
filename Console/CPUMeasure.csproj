@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AppInsights.TelemetryInitializers" Version="1.1.908" />
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.16.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="2.16.0" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
