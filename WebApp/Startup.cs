@@ -14,8 +14,6 @@ namespace WebTrackDemo
 {
     public class Startup
     {
-        private static string instrumentationKey = "896e73ff-b119-4480-bcc9-cfc71a800b55";
-
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
